@@ -57,11 +57,7 @@ conda activate converter_env
 **3.Start the Flask app**
 python webapp.py
 
-*This runs the app on http://127.0.0.1:5000 by default*
-
-
-
-
+*This runs the app on http://127.0.0.1:5000 by default* <br><br>
 
 **4.(Optional) Expose the server externally**
 
