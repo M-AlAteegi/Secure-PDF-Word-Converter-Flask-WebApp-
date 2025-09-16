@@ -13,7 +13,7 @@ The project is intended as a proof of concept for enterprise use cases where com
 
 1. PDF → Word (.docx)
 
-2. Word (.docx/.doc) → PDF
+2. Word (.docx/.doc) → PDF 
 
 -Resilient pipeline: Multi-library fallback (PyMuPDF → pdfplumber → pdf2docx) ensures reliability even if one method fails.
 
@@ -35,14 +35,14 @@ Cloud deployment with enterprise-grade security and team collaboration features.
 
 ## **Getting Started**
 
-Follow these steps to run the server locally. Exact paths, environment names, and tunnel setup may vary depending on your system.
+Follow these steps to run the server locally. Exact paths, environment names, and tunnel setup may vary depending on your system. <br><br>
 
 
 **1.Navigate to your project folder**
 
 Open a terminal and move into the directory containing your files (webapp.py, conversion_utils.py, swagger.yaml, etc.):
 
-cd path/to/teams-converter
+cd path/to/teams-converter <br><br>
 
 
 **2.Activate your Python environment**
@@ -52,7 +52,7 @@ If you use Conda (example):
 conda activate converter_env
 
 
-(Replace converter_env with your environment’s name.)
+(Replace converter_env with your environment’s name.) <br><br>
 
 **3.Start the Flask app**
 python webapp.py
