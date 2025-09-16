@@ -11,9 +11,9 @@ The project is intended as a proof of concept for enterprise use cases where com
 
 -Two-way conversion:
 
-PDF → Word (.docx)
+1. PDF → Word (.docx)
 
-Word (.docx/.doc) → PDF
+2. Word (.docx/.doc) → PDF
 
 -Resilient pipeline: Multi-library fallback (PyMuPDF → pdfplumber → pdf2docx) ensures reliability even if one method fails.
 
