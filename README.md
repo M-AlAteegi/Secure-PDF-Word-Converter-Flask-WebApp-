@@ -37,11 +37,13 @@ Cloud deployment with enterprise-grade security and team collaboration features.
 
 Follow these steps to run the server locally. Exact paths, environment names, and tunnel setup may vary depending on your system.
 
+
 1. Navigate to your project folder
 
 Open a terminal and move into the directory containing your files (webapp.py, conversion_utils.py, swagger.yaml, etc.):
 
 cd path/to/teams-converter
+
 
 2. Activate your Python environment
 
@@ -55,8 +57,8 @@ conda activate converter_env
 3. Start the Flask app
 python webapp.py
 
+*This runs the app on http://127.0.0.1:5000 by default*
 
-This runs the app on http://127.0.0.1:5000 by default.
 
 4. (Optional) Expose the server externally
 
