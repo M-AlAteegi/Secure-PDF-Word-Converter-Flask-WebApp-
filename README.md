@@ -59,12 +59,8 @@ python webapp.py
 
 *This runs the app on http://127.0.0.1:5000 by default*
 
-
-
 **4.(Optional) Expose the server externally**
-
 If you want external access (e.g., for testing with Copilot), open another terminal and start ngrok:
-
 ngrok http 5000
 
 
