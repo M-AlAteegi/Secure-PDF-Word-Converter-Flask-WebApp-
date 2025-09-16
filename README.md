@@ -7,21 +7,21 @@ The project is intended as a proof of concept for enterprise use cases where com
 
 ## **Features**
 
-### Security-first design: No persistent file storage, automatic cleanup of temp files.
+-Security-first design: No persistent file storage, automatic cleanup of temp files.
 
-### Two-way conversion:
+-Two-way conversion:
 
 PDF → Word (.docx)
 
 Word (.docx/.doc) → PDF
 
-### Resilient pipeline: Multi-library fallback (PyMuPDF → pdfplumber → pdf2docx) ensures reliability even if one method fails.
+-Resilient pipeline: Multi-library fallback (PyMuPDF → pdfplumber → pdf2docx) ensures reliability even if one method fails.
 
-### Formatting preservation: Special handling of bullet points, indentation, and symbols for accurate output.
+-Formatting preservation: Special handling of bullet points, indentation, and symbols for accurate output.
 
-### Browser-accessible web interface: Upload and download files via a simple HTML form.
+-Browser-accessible web interface: Upload and download files via a simple HTML form.
 
-### OpenAPI spec (swagger.yaml): Ready for integration with tools like Microsoft Copilot.
+-OpenAPI spec (swagger.yaml): Ready for integration with tools like Microsoft Copilot.
 
 ### **Future Plans**
 
