@@ -1,0 +1,6 @@
+flask
+pdf2docx
+docx2pdf
+python-docx
+pymupdf
+pdfplumber

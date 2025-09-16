@@ -1,0 +1,31 @@
+openapi: 3.0.1
+info:
+  title: PDF⇄Word Converter
+  version: 1.0.0
+
+paths:
+  /:
+    post:
+      summary: Upload a PDF or Word file and get the converted document
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: Converted file
+          content:
+            application/pdf:
+              schema:
+                type: string
+                format: binary
+            application/vnd.openxmlformats-officedocument.wordprocessingml.document:
+              schema:
+                type: string
+                format: binary
