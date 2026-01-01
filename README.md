@@ -54,12 +54,12 @@ conda activate converter_env
 
 (Replace converter_env with your environment’s name.) <br><br>
 
-**3.Start the Flask app**
+**3.** **Start the Flask app**
 python webapp.py
 
 *This runs the app on http://127.0.0.1:5000 by default* <br><br>
 
-**4.(Optional) Expose the server externally**
+**4.** **(Optional) Expose the server externally**
 
 If you want external access (e.g., for testing with Copilot), open another terminal and start ngrok:
 
