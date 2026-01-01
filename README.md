@@ -38,14 +38,14 @@ Cloud deployment with enterprise-grade security and team collaboration features.
 Follow these steps to run the server locally. Exact paths, environment names, and tunnel setup may vary depending on your system. <br><br>
 
 
-**1. Navigate to your project folder**
+** 1. Navigate to your project folder**
 
 Open a terminal and move into the directory containing your files (webapp.py, conversion_utils.py, swagger.yaml, etc.):
 
 cd path/to/teams-converter <br><br>
 
 
-**2. Activate your Python environment**
+** 2. Activate your Python environment**
 
 If you use Conda (example):
 
